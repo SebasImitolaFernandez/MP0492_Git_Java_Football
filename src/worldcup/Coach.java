@@ -5,6 +5,7 @@ package worldcup;
  */
 
 // Primer Commit//
+//Laia
 public class Coach extends Person {
 	string style;
 
