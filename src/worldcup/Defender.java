@@ -24,7 +24,7 @@ public class Defender {
 	}
 
 	/**
-	 * @param mark the mark to set
+	 * @param mark the mark to set Testeito
 	 */
 	public void setMark(boolean mark) {
 		this.mark = mark;
