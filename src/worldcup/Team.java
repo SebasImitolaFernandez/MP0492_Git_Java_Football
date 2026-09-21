@@ -12,7 +12,7 @@ public class Team {
     
     public void play(){
             System.out.println("playing");
-        }
+    }
 
     public Team(String name) {
 		super();
