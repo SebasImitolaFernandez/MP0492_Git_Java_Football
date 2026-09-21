@@ -6,6 +6,8 @@ package worldcup;
 
 public class Field {
 	
+	public int size;
+
 	public int getSize() {
 		return size;
 	}
