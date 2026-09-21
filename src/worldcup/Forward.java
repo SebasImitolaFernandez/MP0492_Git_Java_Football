@@ -12,16 +12,10 @@ public class Forward extends Player {
 		System.out.println("dribbling");
 	}
 
-	/**
-	 * @return the killer
-	 */
 	public boolean isKiller() {
 		return killer;
 	}
 
-	/**
-	 * @param killer the killer to set
-	 */
 	public void setKiller(boolean killer) {
 		this.killer = killer;
 	}

@@ -7,6 +7,7 @@ package worldcup;
 // Primer Commit//
 //Laia
 //hola//
+
 public class Coach extends Person {
 	String style;
 
@@ -14,16 +15,10 @@ public class Coach extends Person {
 		System.out.println("train");
 	}
 
-	/**
-	 * @return the style
-	 */
 	public String getStyle() {
 		return style;
 	}
 
-	/**
-	 * @param style the style to set
-	 */
 	public void setStyle(String style) {
 		this.style = style;
 	}
