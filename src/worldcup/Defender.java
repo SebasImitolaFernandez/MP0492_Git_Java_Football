@@ -5,6 +5,7 @@ import java.util.Random;
 /**
  *  Class to define the defender
  */
+
 public class Defender { 
 	boolean mark;
 
@@ -16,16 +17,10 @@ public class Defender {
         System.out.println("steals the ball " + effect);
     }
 
-	/**
-	 * @return the mark
-	 */
 	public boolean isMark() {
 		return mark;
 	}
 
-	/**
-	 * @param mark the mark to set 
-	 */
 	public void setMark(boolean mark) {
 		this.mark = mark;
 	}

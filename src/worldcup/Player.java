@@ -4,7 +4,7 @@ package worldcup;
  *  Class to define the player
  */
 
-public class Player { 
+public class Player extends Person { 
     String position;
 
     public String getPosition() {
@@ -16,6 +16,6 @@ public class Player {
     }
 
     public void passBall(){
-            System.out.println("Passing the ball");
+            System.out.println("passing the ball");
     }
 }
