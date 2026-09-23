@@ -1,21 +1,27 @@
 package worldcup;
 
 public class Ball {
-    private String material;
+private String material;
+	
+	public Ball() {
+		super();
+	}
+	
+	public Ball(String material) {
+		super();
+		this.material = material;
+	}
 
-    public Ball(String material) {
-        this.material = material;
-    }
+	public String getMaterial() {
+		return material;
+	}
 
-    public String getMaterial() {
-        return material;
-    }
+	public void setMaterial(String material) {
+		this.material = material;
+	}
+	
+	public void move() {
+		System.out.println("moving");
+	}
 
-    public void setMaterial(String material) {
-        this.material = material;
-    }
-
-    public void move() {
-        System.out.println("The ball is moving");
-    }
 }
