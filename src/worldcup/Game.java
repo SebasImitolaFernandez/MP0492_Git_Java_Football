@@ -77,7 +77,7 @@ public class Game {
 		Game game = new Game();
 		game.setField(new Field(100));
 		game.setDate(new Date());
-		game.setBall(new Ball());
+		game.setBall(new Ball("leather"));
 
 		// create players team A
 		ArrayList<Player> listA = new ArrayList<Player>();
